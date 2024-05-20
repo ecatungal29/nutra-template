@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.headline {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+
+@media (max-width: 575.98px) {
+  .headline {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+}
+
+
+/* @media (max-width: 767.98px) { ... } */
+
+
+.image {
+  width: auto;
+  height: auto;
+}
+
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.client-button {
+  z-index: 99999;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zoom-on-hover {
+  transition: transform 0.2s ease;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05);
+}
+
+.ribbon {
+  position: absolute;
+  left: -8px;
+  top: -3px;
+  z-index: 1;
+  overflow: hidden;
+  width: 161px;
+  height: 158px;
+  text-align: center;
+}
+
+.ribbon span {
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  width: 180px;
+  display: block;
+  background: linear-gradient(#f70505 0%, #8f0808 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 37px;
+  left: -33px;
+}
+
+.ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8f0808;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8f0808;
+}
+
+.ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8f0808;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8f0808;
+}
