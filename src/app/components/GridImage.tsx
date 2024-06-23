@@ -27,7 +27,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-[6px] md:text-xl text-xs md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1 md:text-white md:bg-gray-900 md:py-2">
                             Nori Yaki Extract Powder
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-1 md:mt-0 list-inside">
@@ -71,7 +71,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center text-xs font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-4 ">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-4 md:text-white md:bg-gray-900 md:py-2">
                             Wakame Extract
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base   list-inside">
@@ -115,7 +115,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center text-xs font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-9 md:mb-4">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-9 md:mb-4 md:text-white md:bg-gray-900 md:py-2">
                             Kelp Powder
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base  list-inside">
@@ -159,7 +159,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2 md:mt-4   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-0">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2 md:mt-4   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-0 md:text-white md:bg-gray-900 md:py-2">
                             Bladderwrack Powder
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base  list-inside">
@@ -193,7 +193,7 @@ export default function GridImage() {
                     <div className="flex flex-col items-center">
                         <Image
                             src="/SawPalmetto.jpg"
-                            className="w-[200px] rounded-full border-slate-200 border-8"
+                            className="w-[200px] rounded-full border-slate-200 border-8 md:mb-2"
                             width={900}
                             height={900}
                             priority
@@ -201,7 +201,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-7 md:mb-4">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2 rounded-md mb-7 md:mb-4 md:text-white md:bg-gray-900 md:py-2">
                             Saw Palmetto
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-2 list-inside">
@@ -236,7 +236,7 @@ export default function GridImage() {
                     <div className="flex flex-col items-center mb-8 md:mb-0">
                         <Image
                             src="/pomegranate.jpg"
-                            className="w-[200px] rounded-full border-slate-200 border-8"
+                            className="w-[200px] rounded-full border-slate-200 border-8 md:mb-2"
                             width={900}
                             height={900}
                             priority
@@ -244,7 +244,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1 md:text-white md:bg-gray-900 md:py-2">
                             Pomegranate Extract
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-2 list-inside">
@@ -288,7 +288,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1 md:text-white md:bg-gray-900 md:py-2">
                             Iodine
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-2 list-inside">
@@ -332,7 +332,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1 md:text-white md:bg-gray-900 md:py-2">
                             Shilajit
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-2 list-inside">
@@ -374,7 +374,7 @@ export default function GridImage() {
                         />
 
                         {/* <p className="text-center font-bold mt-2 bg-gray-900 text-white px-4 md:text-xl md:px-8 py-2 rounded-md"> */}
-                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1">
+                        <p className="text-center text-base text-gray-900  font-bold mt-2   px-4 md:text-xl md:px-8 pt-2  rounded-md  md:mb-4 mb-1 md:text-white md:bg-gray-900 md:py-2">
                             Neem
                         </p>
                         <ul className="max-w-md space-y-1 md:text-base mt-2 list-inside">
