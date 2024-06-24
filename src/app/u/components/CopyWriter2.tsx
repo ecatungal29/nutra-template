@@ -57,7 +57,7 @@ export default function CopyWriterTwo() {
                     </ol>
 
                     <h1 className="text-3xl md:text-5xl font-bold mb-5 mt-10">
-                        What&apos;s the reason for this amazing giveaway?
+                        So Now You Understand Why On this Page Only...
                     </h1>
                     <p>
                         And today only, I&apos;m offering you the very best deal
