@@ -3,7 +3,10 @@ import React from "react";
 import Image from "next/image";
 
 export default function Footer() {
-    const handleClick = (event, url) => {
+    const handleClick = (
+        event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+        url: string | URL | undefined
+    ) => {
         event.preventDefault();
         window.open(
             url,
