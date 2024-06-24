@@ -17,7 +17,7 @@ export default function ArrowSection() {
                         <p className="text-center font-semibold text-white text-2xl md:text-5xl mt-10 mb-4">
                             $29 per bottle!
                         </p>
-                        <p className="text-center font-normal text-2xl text-gray-200 mb-10">
+                        <p className="text-center font-normal md:text-3xl text-lg text-gray-200 mb-10">
                             Plus Extra Exciting Bonuses!
                         </p>
                     </div>

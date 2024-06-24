@@ -7,7 +7,7 @@ export default function DsoneCopyOne() {
                 <h1 className=" md:text-5xl font-bold text-center mb-8 text-2xl">
                     Hey, Craig Shultz here...
                 </h1>
-                <div className="md:text-xl text-base">
+                <div className="md:text-lg text-base">
                     <p className="  text-center">
                         I&apos;m here to help however I can, and right now I
                         want to help you stock up on ProstaFlow and feel GREAT
@@ -25,10 +25,11 @@ export default function DsoneCopyOne() {
 
                     <p className=" text-center mb-2">
                         So on this &quot;last chance&quot; page, I can offer you{" "}
-                        <span className="font-bold">
-                            2 bottles of ProstaFlow
+                        <span className="font-bold mr-1">2 bottles</span>
+                        of ProstaFlow At a huge discount...{" "}
+                        <span className="text-red-600 font-bold">
+                            only $29 per bottle!
                         </span>
-                        At a huge discount... only $29 per bottle!
                     </p>
 
                     <p className=" text-center mb-10">
