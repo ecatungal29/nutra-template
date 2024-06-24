@@ -12,15 +12,15 @@ export default function page() {
                 <div className="flex p-5 md:p-20 flex-col items-center md:flex-row md:w-full bg-gray-100">
                     <Image
                         className="image object-cover md:w-4/12 rounded-t-lg"
-                        src="/2bootle-fruits.png"
-                        width={300}
-                        height={300}
+                        src="/images/prostaflow 2 bottle.png"
+                        width={1000}
+                        height={1000}
                         priority
                         alt="..."
                     />
 
                     <div className="flex flex-col justify-between p-4 leading-normal md:px-20 w-full md:w-7/12">
-                        <h5 className="text-5xl font-bold tracking-tight text-center md:text-left ">
+                        <h5 className="md:text-5xl text-3xl font-bold tracking-tight text-center md:text-left ">
                             Thank You & Congratulations!
                         </h5>
                         <p className="mt-5 mb-2 font-normal text-center md:text-left">
