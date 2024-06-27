@@ -31,21 +31,21 @@ export default function Hero() {
     return (
         <>
             <div className="bg-gradient-to-r from-[#25283b] via-[#3e3f67] to-[#2a2b46] md:overflow-hidden pt-8 pb-51">
-                <h1 className="text-2xl md:text-5xl text-[#bac2d7] font-semibold text-center">
+                <h1 className="text-3xl  lg:text-5xl text-[#bac2d7] font-semibold text-center mx-1">
                     Harvard:You have 14 Days to Fix
                 </h1>
 
                 <div className="w-10/12 md:w-6/12 mx-auto">
-                    <h1 className=" text-2xl md:text-5xl text-[#bac2d7] font-bold text-center mb-8">
+                    <h1 className=" text-3xl lg:text-5xl text-[#bac2d7] font-bold text-center mb-8 mx-0">
                         Enlarged Prostate, Or it&apos;s Too Late
                     </h1>
                 </div>
 
-                <div className="w-full md:w-3/4 mx-auto">
+                <div className="  mx-auto xl:mb-3 xl:w-[950px] xl:h-[527px]  lg:w-[680px] lg:h-[375px]  lg:mb-5 md:w-[680px] md:h-[375px]  md:mb-3 ">
                     <div ref={videoRef}>
                         {load ? (
                             <iframe
-                                className="w-full aspect-video md:rounded-xl md:mb-5 shadow-2xl"
+                                className="w-full aspect-video  md:rounded-xl md:mb-5 shadow-2xl"
                                 src="https://www.youtube.com/embed/ZAvylHvwTmg"
                                 title="YouTube video player"
                                 frameBorder="0"
