@@ -23,11 +23,11 @@ export default function PricingOne() {
                     <p className="text-[#bac2d7] sm:text-lg">30 Day Supply</p>
                 </div>
 
-                <div className="bg-gradient-to-t from-[#b9c4d8] via-[#b9c4d8] to-[#c8d3e9] w-80 h-80 mx-auto rounded-full flex items-center justify-center my-8 ">
+                <div className="bg-gradient-to-t from-[#b9c4d8] via-[#b9c4d8] to-[#c8d3e9] lg:w-72 lg:h-72 md:w-80 w-52 h-52 md:h-80 mx-auto rounded-full flex items-center justify-center my-8 ">
                     <Image
                         src="/prostaflowx1-500px.png"
-                        className=""
-                        width={140}
+                        className=" lg:w-[150px] md:w-[180px] w-[100px]"
+                        width={180}
                         height={0}
                         priority
                         alt="..."
@@ -40,15 +40,18 @@ export default function PricingOne() {
                         /Per Bottle
                     </span>
                 </div>
+                <br />
 
-                <p className="mt-5 font-semibold">YOU SAVE $110</p>
-                <p className="mb-5">+ 2 FREE E-BOOKS</p>
+                {/* <p className="mt-5 font-semibold">YOU SAVE $110</p> */}
+                <p className="mb-5 text-neutral-500 font-semibold">
+                    PLUS $9.95 SHIPPING
+                </p>
 
                 <div
                     onClick={() => handleClick(true)}
                     className="text-black shadow-md hover:cursor-pointer bg-gradient-to-t from-[#d9ba40] via-[#facb16] to-[#facb16] font-bold rounded-full text-lg px-5 py-4 text-center mx-6"
                 >
-                    ADD TO CART
+                    ORDER NOW
                 </div>
                 <p className="text-sm mt-2">60 Day Money-Back Guarantee</p>
 
@@ -63,10 +66,10 @@ export default function PricingOne() {
                     />
                 </div>
 
-                <p className="text-sm mt-3">
-                    TOTAL: <del className="text-red-500">$179</del> $69
+                <p className="text-BASE mt-3 font-semibold mb-5">
+                    <del className="text-red-500 ">$119</del> $69 + S&H
                 </p>
-                <p className="text-sm font-semibold mb-5">+ SHIPPING</p>
+                {/* <p className="text-sm font-semibold mb-5">+ SHIPPING</p> */}
             </div>
 
             <Transition.Root show={open} as={Fragment}>

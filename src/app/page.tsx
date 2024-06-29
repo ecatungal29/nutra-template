@@ -76,17 +76,24 @@ export default function Home() {
                 {showDiv ? (
                     <>
                         <section className="bg-gray-200 pb-10">
-                            <div className="md:w-8/12 mx-auto pt-5">
+                            <div className="md:w-8/12 w-9/12 mx-auto pt-5">
                                 {/* Show on desktop */}
-                                <h1 className="hidden lg:block headline font-bold text-center p-5 border-2">
-                                    Claim your Discounted ProstaFlow Below While
-                                    Stock Lasts
-                                </h1>
+                                <h3 className="hidden md:block headline md:text-3xl  text-center p-5 border-2">
+                                    Claim your Discounted{" "}
+                                    <span className="font-bold mr-2">
+                                        ProstaFlow
+                                    </span>
+                                    Below While Stock Lasts
+                                </h3>
 
                                 {/* Show on mobile */}
-                                <h1 className="lg:hidden block headline font-bold text-center p-5">
+                                <h1 className="md:hidden block headline   text-center p-5">
                                     Claim your Discounted
-                                    <br /> ProstaFlow Below
+                                    <br />
+                                    <span className="font-bold">
+                                        ProstaFlow
+                                    </span>{" "}
+                                    Below
                                     <br /> While Stock Lasts
                                 </h1>
                             </div>
@@ -113,13 +120,6 @@ export default function Home() {
 
                         <Creator />
 
-                        <div className="lg:w-6/12 mx-auto mt-10">
-                            <h1 className="headline font-bold text-center p-5">
-                                Order 6 Bottles Or 3 Bottles And Get 2 Free
-                                Bonuses!
-                            </h1>
-                        </div>
-
                         <Bonuses />
                         <GridImage />
                         <BigBottle />
@@ -135,7 +135,10 @@ export default function Home() {
                         </div>
 
                         <Timer />
-                        <section className="bg-white mt-10 md:mt-0">
+                        <div
+                            className="bg-white mt-10 md:mt-0"
+                            id="order-section"
+                        >
                             <div className="px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                                 {/* Show on desktop */}
                                 <div className="hidden lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -151,7 +154,7 @@ export default function Home() {
                                     <PricingOne />
                                 </div>
                             </div>
-                        </section>
+                        </div>
 
                         <Ratings />
 
