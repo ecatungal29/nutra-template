@@ -5,7 +5,7 @@ export default function CopyWriterTwo() {
         <>
             <div className="w-full md:w-9/12 mx-auto p-5 md:p-0">
                 <div className="w-full mx-auto md:w-11/12">
-                    <h1 className="text-3xl md:text-5xl font-bold mb-5">
+                    <h1 className="text-2xl md:text-[28px] font-bold mb-5">
                         What&apos;s the reason for this amazing giveaway?
                     </h1>
 
@@ -56,7 +56,7 @@ export default function CopyWriterTwo() {
                         </li>
                     </ol>
 
-                    <h1 className="text-3xl md:text-5xl font-bold mb-5 mt-10">
+                    <h1 className="text-2xl md:text-[28px]  font-bold mb-5 mt-10">
                         So Now You Understand Why On this Page Only...
                     </h1>
                     <p>
