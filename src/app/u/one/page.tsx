@@ -53,8 +53,8 @@ export default function UpsellTwo() {
             <UpsellBigBottleTwo />
             <UpsellBonusTwo />
 
-            <div className="mx-auto w-11/12 md:w-8/12 mt-20 mb-32">
-                <h1 className="text-3xl md:text-4xl text-black font-bold text-center mb-8">
+            <div className="mx-auto w-11/12 md:w-8/12 mt-5 mb-32">
+                <h1 className="text-2xl md:text-3xl text-black font-bold text-center mb-8">
                     So Now You Understand Why On this Page Only...
                 </h1>
                 <p className="text-center mb-5">
@@ -69,8 +69,8 @@ export default function UpsellTwo() {
 
             <UpsellProtectedTwo />
 
-            <div className="mx-auto w-11/12 md:w-8/12 mt-20 mb-10">
-                <h1 className="text-3xl md:text-4xl text-black font-bold text-center mb-8">
+            <div className="mx-auto w-11/12 md:w-8/12 mt-10 mb-10">
+                <h1 className="text-xl md:text-2xl text-black font-bold text-center mb-8">
                     However, this truly is a one time only offer.
                 </h1>
 
