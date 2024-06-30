@@ -8,18 +8,18 @@ export default function Testimonials() {
             <div className="mx-auto flex justify-center p-6 md:p-0">
                 <a
                     href="#"
-                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6 p-8"
+                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6  p-11"
                 >
                     <Image
                         src="/images/guy4.png"
-                        className="image w-40 h-40 rounded-full"
+                        className="  w-[106px] lg:w-[115px] xl:w-[340px]  rounded-full m-7 "
                         width={150}
                         height={150}
                         priority
                         alt="..."
                     />
 
-                    <div className="flex flex-col justify-between p-4 leading-normal">
+                    <div className="flex flex-col justify-between pt-3 leading-normal md:ml-5">
                         <p className="text-center md:text-left mb-2 font-normal italic">
                             &quot;Very happy with the results. My urinary flow
                             feels steady and consistent, like a well-maintained
@@ -33,7 +33,7 @@ export default function Testimonials() {
                             Texas, USA
                         </p>
 
-                        <div className="flex lg:justify-start justify-center">
+                        <div className="flex md:justify-start justify-center">
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
@@ -49,18 +49,18 @@ export default function Testimonials() {
             <div className="mx-auto flex justify-center p-6 md:p-0">
                 <a
                     href="#"
-                    className="flex flex-col items-center  bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6 p-8"
+                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6  p-11"
                 >
                     <Image
                         src="/images/guy2.png"
-                        className="image w-40 h-40 rounded-full"
+                        className="w-[106px] lg:w-[115px] xl:w-[340px]  rounded-full m-7 "
                         width={150}
                         height={150}
                         priority
                         alt="..."
                     />
 
-                    <div className="flex flex-col justify-between p-4 leading-normal">
+                    <div className="flex flex-col justify-between pt-3 leading-normal md:ml-5">
                         <p className="text-center md:text-left mb-2 font-normal italic ">
                             &quot;I really like this product! I&lsquo;ve been
                             taking another prostate health support product for
@@ -74,7 +74,7 @@ export default function Testimonials() {
                             California, USA
                         </p>
 
-                        <div className="flex lg:justify-start justify-center">
+                        <div className="flex md:justify-start justify-center">
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
@@ -90,18 +90,18 @@ export default function Testimonials() {
             <div className="mx-auto flex justify-center p-6 md:p-0">
                 <a
                     href="#"
-                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6 p-8"
+                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6  p-11"
                 >
                     <Image
                         src="/images/guy1.png"
-                        className="image w-40 h-40 rounded-full"
+                        className="  w-[106px] lg:w-[115px] xl:w-[340px]  rounded-full m-7 "
                         width={150}
                         height={150}
                         priority
                         alt="..."
                     />
 
-                    <div className="flex flex-col justify-between p-4 leading-normal">
+                    <div className="flex flex-col justify-between p-3 leading-normal md:ml-5">
                         <p className="text-center md:text-left mb-2 font-normal italic ">
                             &quot;Incredible results! I&lsquo;m giving this
                             supplement a resounding 5 stars. It delivers exactly
@@ -122,7 +122,7 @@ export default function Testimonials() {
                             - New York, USA
                         </p>
 
-                        <div className="flex lg:justify-start justify-center">
+                        <div className="flex md:justify-start justify-center">
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
@@ -138,19 +138,19 @@ export default function Testimonials() {
             <div className="mx-auto flex justify-center p-6 md:p-0">
                 <a
                     href="#"
-                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6 p-8"
+                    className="flex flex-col items-center bg-[#25283b] text-white border rounded-3xl md:flex-row md:w-9/12 mt-6 p-11"
                 >
                     <Image
                         src="/images/guy3.png"
-                        className="image w-40 h-40 rounded-full"
+                        className="  w-[106px] lg:w-[115px] xl:w-[340px]  rounded-full m-7 "
                         width={150}
                         height={150}
                         priority
                         alt="..."
                     />
 
-                    <div className="flex flex-col justify-between p-4 leading-normal">
-                        <p className="text-center md:text-left mb-2 font-normal italic ">
+                    <div className="flex flex-col justify-between pt-3 leading-normal md:ml-5">
+                        <p className="text-center md:text-left mb-2 font-normal italic">
                             &quot;I have tried this for almost 3 months already.
                             It worked!!! Not only has it effectively addressed
                             my prostate health concerns, but it has also notably
@@ -164,7 +164,7 @@ export default function Testimonials() {
                             Pennsylvania, USA
                         </p>
 
-                        <div className="flex lg:justify-start justify-center">
+                        <div className="flex md:justify-start justify-center">
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />
                             <HiStar className="h-5 w-5 text-yellow-400" />

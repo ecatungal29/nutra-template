@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { HiOutlineCheck } from "react-icons/hi";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function BigBottleTwo() {
     return (
         <div className="mx-auto flex justify-center mt-10 mb-40">
-            <div className="flex p-5 md:p-20 flex-col items-center md:flex-row md:w-full bg-gray-100">
+            <div className="flex p-5 md:p-20 flex-col items-center md:flex-row md:w-full bg-white">
                 <Image
                     className="md:w-6/12 rounded-t-lg"
                     src="/images/prostaflow 2 bottle.png"
@@ -16,12 +17,12 @@ export default function BigBottleTwo() {
                 />
 
                 <div className="flex flex-col justify-between p-4 leading-normal md:px-0 w-full md:w-6/12">
-                    <h5 className=" md:text-5xl text-xl font-bold   md:text-left ">
+                    <h5 className=" xl:text-3xl text-2xl font-medium text-[#2a324b] text-maxT  md:text-left ">
                         Are you constantly fatigued, experiencing bouts of
                         forgetfulness, or irritable due to prostate-related
                         issues?
                     </h5>
-                    <p className="mt-5 mb-2 text-lg font-normal md:text-left">
+                    <p className="mt-5 mb-2 text-base font-normal md:text-left">
                         Say goodbye to these discomforts and reclaim your
                         vitality with ProstaFlow! Our ground-breaking supplement
                         has been intricately designed to support prostate
@@ -75,7 +76,15 @@ export default function BigBottleTwo() {
 
                     <div className="mt-8 flex items-center justify-center">
                         <div className="md:w-96 w-64 text-black shadow-md hover:cursor-pointer bg-gradient-to-t from-[#d9ba40] via-[#facb16] to-[#facb16] font-bold rounded-full text-lg px-5 py-4 text-center mx-6">
-                            ORDER NOW!
+                            <Link
+                                to="order-section2"
+                                spy={true}
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                            >
+                                ORDER NOW!
+                            </Link>
                         </div>
                     </div>
                 </div>

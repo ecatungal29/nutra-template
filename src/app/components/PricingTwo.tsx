@@ -64,9 +64,16 @@ export default function PricingTwo() {
                     {/* <p className="mt-5 font-semibold">YOU SAVE $780</p>
                     <p className="mb-5">+ 2 FREE E-BOOKS</p> */}
 
-                    <div className="text-black shadow-md hover:cursor-pointer bg-gradient-to-t from-[#d9ba40] via-[#facb16] to-[#facb16] font-bold rounded-full text-lg px-5 py-4 text-center">
-                        ORDER NOW
-                    </div>
+                    <a
+                        href="https://www.digistore24.com/product/536868"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div className="text-black shadow-md hover:cursor-pointer bg-gradient-to-t from-[#d9ba40] via-[#facb16] to-[#facb16] font-bold rounded-full text-lg px-5 py-4 text-center">
+                            ORDER NOW
+                        </div>
+                    </a>
+
                     <p className="text-sm mt-2">90 Day Money-Back Guarantee</p>
                     <div className="flex justify-center items-center">
                         <Image

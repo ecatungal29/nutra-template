@@ -119,7 +119,7 @@ export default function PricingOne() {
                                                 <div className="flex flex-col items-center">
                                                     <Image
                                                         className="image object-cover rounded-t-lg"
-                                                        src="/2bootles.png"
+                                                        src="/images/2bottles.png"
                                                         width={300}
                                                         height={300}
                                                         priority
@@ -134,7 +134,7 @@ export default function PricingOne() {
                                                 <div className="flex flex-col items-center">
                                                     <Image
                                                         className="image object-cover rounded-t-lg"
-                                                        src="/2bootles.png"
+                                                        src="/images/1bottle.png"
                                                         width={300}
                                                         height={300}
                                                         priority

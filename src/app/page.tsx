@@ -158,11 +158,11 @@ export default function Home() {
 
                         <Ratings />
 
-                        <div className="w-10/12 mx-auto px-4 md:px-6 py-24">
-                            <h1 className=" text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+                        <div className="w-10/12 mx-auto px-4 md:px-6 py-10 bg-[#2a324b] rounded-[40px] mt-8">
+                            <h1 className=" text-2xl md:text-4xl font-bold text-white mb-4 text-center">
                                 Frequently Asked Questions
                             </h1>
-                            <div className="divide-y divide-slate-200">
+                            <div className=" divide-slate-200  text-[#2a324b] ">
                                 {faqs.map((faq, index) => (
                                     <Questions
                                         key={index}
@@ -179,15 +179,18 @@ export default function Home() {
                         <BigBottleTwo />
                         <Seal />
 
-                        <div className="lg:w-6/12 mx-auto mt-12">
-                            <h1 className="headline  text-center p-5">
+                        <div className="lg:w-6/12 mx-auto mt-12 md:text-[28px] lg:text-[31px] xl:text-[43px] ">
+                            <h1 className="  text-center font-medium  ">
                                 Try{" "}
                                 <span className="font-bold">ProstaFlow</span>{" "}
-                                Today At Special Introductory Pricing!
+                                Today
+                            </h1>
+                            <h1 className="   text-center font-medium ">
+                                At Special Introductory Pricing!
                             </h1>
                         </div>
 
-                        <section className="bg-white">
+                        <section className="bg-white" id="order-section2">
                             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                                 {/* Show on desktop */}
                                 <div className="hidden lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">

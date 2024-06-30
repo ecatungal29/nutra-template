@@ -1,6 +1,7 @@
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import { HiStar } from "react-icons/hi";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Ratings() {
     return (
@@ -33,10 +34,17 @@ export default function Ratings() {
 
             <div className="flex items-center justify-center mt-3">
                 <p>
-                    <Link href="/" className="underline">
+                    <Link
+                        to="testimonial"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        className="cursor-pointer underline"
+                    >
                         View Reviews
-                    </Link>{" "}
-                    |{" "}
+                    </Link>
+                    <Link href="/" className="underline"></Link> |{" "}
                     <Link href="/" className="underline">
                         View FAQ&lsquo;s
                     </Link>

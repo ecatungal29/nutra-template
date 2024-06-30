@@ -1,15 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRef } from "react";
-import {
-    Link,
-    DirectLink,
-    Element,
-    Events,
-    animateScroll as scroll,
-    scrollSpy,
-    scroller,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Bonuses() {
     const orderRef = useRef<HTMLDivElement | null>(null);
