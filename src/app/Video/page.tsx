@@ -34,7 +34,7 @@ export default function Sample() {
                 className="video-js vjs-default-skin absolute top-0 left-0  w-1/2  h-auto"
                 controls
                 preload="auto"
-                fluid_
+
                 // responsive
             />
         </div>
