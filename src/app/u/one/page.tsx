@@ -11,7 +11,7 @@ import UpsellTestimonialTwo from "../components/UpsellTestimonial2";
 import UpsellBonusTwo from "../components/UpsellBonus2";
 import UpsellProtectedTwo from "../components/UpsellProtected2";
 import ReactPlayer from "react-player/youtube";
-import Modal from "react-modal";
+// import Modal from "react-modal";
 
 export default function UpsellTwo() {
     return (
