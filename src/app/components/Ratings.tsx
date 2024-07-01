@@ -1,4 +1,4 @@
-// import Link from "next/link";
+import NextLink from "next/link";
 import React from "react";
 import { HiStar } from "react-icons/hi";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -44,10 +44,10 @@ export default function Ratings() {
                     >
                         View Reviews
                     </Link>
-                    <Link href="/" className="underline"></Link> |{" "}
-                    <Link href="/" className="underline">
+                    <NextLink href="/" className="underline"></NextLink> |{" "}
+                    <NextLink href="/" className="underline">
                         View FAQ&lsquo;s
-                    </Link>
+                    </NextLink>
                 </p>
             </div>
         </>
