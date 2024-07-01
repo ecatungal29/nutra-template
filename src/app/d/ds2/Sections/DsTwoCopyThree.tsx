@@ -2,14 +2,14 @@ import React from "react";
 
 export default function DsTwoCopyThree() {
     return (
-        <div className="w-full md:w-6/12 mx-auto">
-            <h1 className="text-2xl md:text-5xl font-bold text-center mb-8  mx-4">
+        <div className="w-full md:w-10/12 mx-auto">
+            <h1 className=" text-xl md:text-2xl text-stone-900  font-bold text-center mb-8 mt-10">
                 And after listening to feedback from thousands of our delighted
                 customers, I know two things:
             </h1>
 
-            <p className="md:text-xl text-base text-left  mb-10 mx-3">
-                <span className=" text-red-700 font-bold mr-1">
+            <p className="md:text-lg text-base text-left  mb-10 mx-5">
+                <span className=" text-red-700 font-bold ">
                     1. Once you&apos;ve been taking ProstaFlow for a while,
                     you&apos;ll be amazed by its incredible power.
                 </span>
@@ -20,10 +20,13 @@ export default function DsTwoCopyThree() {
                 more difficult-to-source ingredients are not available and our
                 manufacturing facility has to wait on a new shipment. This is
                 why I&apos;m urging you to stock up now and why I&apos;m
-                practically giving you this extra 90-day (3-bottle) supply.
+                practically giving you this extra{" "}
+                <span className=" font-semibold">
+                    90-day (3-bottle) supply.
+                </span>
             </p>
 
-            <p className="md:text-xl text-base text-left  mb-10 mx-3">
+            <p className="md:text-lg text-base text-left  mb-2 mx-5">
                 <span className=" text-red-700 font-bold mr-1">
                     2. I also know that when you finish your supply of
                     ProstaFlow, you&apos;ll be so thrilled with your progress

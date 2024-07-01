@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DsOneCopyFour() {
     return (
-        <div className="mx-auto w-11/12 md:w-8/12 mt-20">
+        <div className="mx-auto w-11/12 md:w-8/12 mt-10">
             <h1 className=" text-xl md:text-2xl xl:text-3xl text-stone-900  font-bold text-center mb-8 mt-10">
                 All you need to do is click the button below to Upgrade Your
                 Order
