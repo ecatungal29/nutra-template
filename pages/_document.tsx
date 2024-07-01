@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { Inter, Poppins } from "next/font/google";
-import "./globals.css";
+import "../src/app/global.css";
 export default function Document() {
     return (
         <Html>
