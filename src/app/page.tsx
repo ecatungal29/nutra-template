@@ -179,7 +179,7 @@ export default function Home() {
                         <BigBottleTwo />
                         <Seal />
 
-                        <div className="lg:w-6/12 mx-auto mt-12 md:text-[28px] lg:text-[31px] xl:text-[43px] ">
+                        <div className="lg:w-6/12 mx-auto mt-12 md:text-[28px] lg:text-[31px] xl:text-[43px] text-xl">
                             <h1 className="  text-center font-medium  ">
                                 Try{" "}
                                 <span className="font-bold">ProstaFlow</span>{" "}

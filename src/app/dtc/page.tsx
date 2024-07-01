@@ -77,22 +77,17 @@ export default function DirectToCustomer() {
 
             <Creator />
 
-            <div className="lg:w-7/12 mx-auto mt-24">
-                <h1 className="text-3xl md:text-5xl font-bold text-center p-5">
-                    Order 6 Bottles Or 3 Bottles And Get 2 Free Bonuses!
-                </h1>
-            </div>
-
             <Bonuses />
             <GridImage />
             <BigBottle />
             <Customer />
             <Testimonials />
 
-            <div className="lg:w-7/12 mx-auto mt-10 md:mt-28">
-                <h1 className="text-3xl md:text-5xl font-bold text-center px-5">
-                    Take advantage of this limited offer to stock up on
-                    ProstaFlow while supplies last!
+            <div className="lg:w-9/12 mx-auto mt-10 md:mt-28 mb-5">
+                <h1 className="headline  text-center px-5">
+                    Take advantage of this limited offer to stock up on{" "}
+                    <span className="font-bold">ProstaFlow</span> while supplies
+                    last!
                 </h1>
             </div>
 
@@ -108,11 +103,11 @@ export default function DirectToCustomer() {
 
             <Ratings />
 
-            <div className="w-10/12 mx-auto px-4 md:px-6 py-24">
-                <h1 className=" text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+            <div className="w-10/12 mx-auto px-4 md:px-6 py-10 bg-[#2a324b] rounded-[40px] mt-8">
+                <h1 className=" text-2xl md:text-4xl font-bold text-white mb-4 text-center">
                     Frequently Asked Questions
                 </h1>
-                <div className="divide-y divide-slate-200">
+                <div className=" divide-slate-200  text-[#2a324b] ">
                     {faqs.map((faq, index) => (
                         <Questions
                             key={index}
@@ -129,9 +124,12 @@ export default function DirectToCustomer() {
             <BigBottleTwo />
             <Seal />
 
-            <div className="lg:w-7/12 mx-auto mt-20">
-                <h1 className="text-3xl md:text-5xl font-bold text-center p-5">
-                    Try ProstaFlow Today At Special Introductory Pricing!
+            <div className="lg:w-6/12 mx-auto mt-12 md:text-[28px] lg:text-[31px] xl:text-[43px] text-xl ">
+                <h1 className="  text-center font-medium  ">
+                    Try <span className="font-bold">ProstaFlow</span> Today
+                </h1>
+                <h1 className="   text-center font-medium ">
+                    At Special Introductory Pricing!
                 </h1>
             </div>
 
@@ -148,7 +146,7 @@ export default function DirectToCustomer() {
             <Ratings />
             <ScientificReference />
 
-            <div className="w-full md:w-8/12 lg:w-auto flex justify-center mt-24">
+            {/* <div className="w-full md:w-8/12 lg:w-auto flex justify-center mt-24">
                 <Image
                     src="/bottle-label.png"
                     className="image"
@@ -157,7 +155,7 @@ export default function DirectToCustomer() {
                     priority
                     alt="..."
                 />
-            </div>
+            </div> */}
 
             <Footer />
         </>

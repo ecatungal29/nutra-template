@@ -17,7 +17,7 @@ export default function BigBottleTwo() {
                 />
 
                 <div className="flex flex-col justify-between p-4 leading-normal md:px-0 w-full md:w-6/12">
-                    <h5 className=" xl:text-3xl text-2xl font-medium text-[#2a324b] text-maxT  md:text-left ">
+                    <h5 className=" xl:text-3xl text-xl  font-semibold text-[#2a324b] text-maxT  md:text-left ">
                         Are you constantly fatigued, experiencing bouts of
                         forgetfulness, or irritable due to prostate-related
                         issues?
