@@ -2,20 +2,20 @@
 
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player/youtube";
-// import Modal from "react-modal";
+import Modal from "react-modal";
 
 const Sample: React.FC = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [playedSeconds, setPlayedSeconds] = useState(0);
 
-    // useEffect(() => {
-    //     const appElement = document.getElementById("__next");
-    //     if (appElement) {
-    //         Modal.setAppElement(appElement);
-    //     } else {
-    //         console.error("App element #__next not found");
-    //     }
-    // }, []);
+    useEffect(() => {
+        const appElement = document.getElementById("__next");
+        if (appElement) {
+            Modal.setAppElement(appElement);
+        } else {
+            console.error("App element #__next not found");
+        }
+    }, []);
 
     useEffect(() => {
         if (playedSeconds >= 60) {
