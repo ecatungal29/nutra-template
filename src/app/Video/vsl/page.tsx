@@ -62,7 +62,7 @@ const Sample: React.FC = () => {
                 }}
             >
                 <h2>Special Message</h2>
-                <p>You've been watching the video for 3 minutes!</p>
+                <p>You&apos;ve been watching the video for 3 minutes!</p>
                 <button
                     onClick={closeModal}
                     className="mt-4 p-2 bg-blue-500 text-white rounded"

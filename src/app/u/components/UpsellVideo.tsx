@@ -1,6 +1,8 @@
 "use client";
 import React, { useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
+
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 export default function UpsellVideo() {
@@ -36,7 +38,7 @@ export default function UpsellVideo() {
                 </div>
 
                 {!playing && (
-                    <img
+                    <Image
                         src="/continue.svg"
                         alt="Continue Icon"
                         className="hover:cursor-pointer client-button"
@@ -44,7 +46,7 @@ export default function UpsellVideo() {
                     />
                 )}
                 {playing && (
-                    <img
+                    <Image
                         src="/continue.svg"
                         alt="Continue Icon"
                         className="hover:cursor-pointer client-button"

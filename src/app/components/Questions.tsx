@@ -1,5 +1,17 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useReducer } from "react";
+
+const reducer = (state, action) => {
+    switch (action.type) {
+        case "setActive":
+            return { ...state, active: action.payload };
+        case "setAccordionOpen":
+            return { ...state, accordionOpen: action.payload };
+        default:
+            return state;
+    }
+};
+const initialState = { active: false, accordionOpen: false };
 
 type AccordionpProps = {
     children: React.ReactNode;
@@ -15,10 +27,15 @@ export default function Questions({
     active = false,
 }: AccordionpProps) {
     const [accordionOpen, setAccordionOpen] = useState<boolean>(false);
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+    useEffect(() => {
+        dispatch({ type: "setAccordionOpen", payload: state.active });
+    }, [state.active]);
 
     useEffect(() => {
         setAccordionOpen(active);
-    }, []);
+    }, [active]);
 
     return (
         <div className="py-2">
