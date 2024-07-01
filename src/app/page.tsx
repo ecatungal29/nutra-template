@@ -1,5 +1,8 @@
 "use client";
 import Hero from "./components/Hero";
+import VSL1 from "./vsl/vsl_1/page";
+import VSL2 from "./vsl/vsl_2/page";
+import VSL3 from "./vsl/vsl_3/page";
 import Questions from "./components/Questions";
 import Ratings from "./components/Ratings";
 import PricingOne from "./components/PricingOne";
@@ -21,6 +24,16 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
+    const vslComponents = [VSL1, VSL2, VSL3];
+    const randomIndex = Math.floor(Math.random() * vslComponents.length);
+    const RandomVSLComponent = vslComponents[randomIndex];
+
+    const [SelectedVSL, setSelectedVSL] = useState(null);
+    // useEffect(() => {
+    //     // Randomly select a VSL component when the component mounts
+    //     const randomIndex = Math.floor(Math.random() * VSLComponents.length);
+    //     setSelectedVSL(VSLComponents[randomIndex]);
+    // }, []);
     const [showDiv, setShowDiv] = useState(false);
 
     useEffect(() => {
@@ -71,8 +84,13 @@ export default function Home() {
 
     return (
         <>
-            <Hero />
+            {/* <Hero /> */}
+            {/* <VSL1 /> */}
+            {/* <VSL2 />
+            <VSL3 /> */}
+            <RandomVSLComponent />
             <div>
+                {/* {SelectedVSL ? <SelectedVSL /> : null} */}
                 {showDiv ? (
                     <>
                         <section className="bg-gray-200 pb-10">
