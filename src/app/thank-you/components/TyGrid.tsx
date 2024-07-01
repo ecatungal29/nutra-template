@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function TyGrid() {
     return (
-        <div className="lg:w-7/12 mx-auto mt-24">
+        <div className="lg:w-7/12 mx-auto max-w-screen-md ">
             <h1 className="text-2xl md:text-5xl font-bold text-center p-5">
                 Download Your Bonuses!
             </h1>
 
-            <div className="flex justify-center p-8 md:p-0">
+            <div className="flex justify-center p-8 md:p-0 md:mx-3 ">
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
                     <div className="bg-gray-200 p-4 rounded-2xl">
                         <div className="flex flex-col items-center">

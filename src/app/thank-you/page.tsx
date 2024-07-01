@@ -4,11 +4,13 @@ import Image from "next/image";
 import TySeal from "./components/TySeal";
 import TyGrid from "./components/TyGrid";
 import Footer from "../components/Footer";
+import ThankYouHeader from "../components/ThankyouHeader";
 
 export default function page() {
     return (
         <>
-            <div className="mx-auto flex justify-center mb-40">
+            <ThankYouHeader />
+            <div className="mx-auto flex justify-center mb-24">
                 <div className="flex p-5 md:p-20 flex-col items-center md:flex-row md:w-full bg-gray-100">
                     <Image
                         className="image object-cover md:w-4/12 rounded-t-lg"

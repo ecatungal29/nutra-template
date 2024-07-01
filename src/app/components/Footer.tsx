@@ -18,7 +18,7 @@ export default function Footer() {
         <>
             <footer className="bg-gradient-to-r from-[#25283b] via-[#3e3f67] to-[#2a2b46] mt-10">
                 <div className="w-full mx-auto max-w-screen-xl p-4 items-center">
-                    <p className="text-center text-gray-200">
+                    <p className="text-center text-sm text-gray-200">
                         Digistore24 is the retailer of products on this site.
                         Digistore24&apos;s role as retailer does not constitute
                         an endorsement, approval or review of these products or
@@ -28,9 +28,12 @@ export default function Footer() {
                 </div>
 
                 <div className="w-full mx-auto max-w-screen-xl items-center">
-                    <p className="text-center text-gray-200">
+                    <p className="text-center text-gray-200 text-sm">
                         For Product Support, please contact the vendor{" "}
-                        <Link href="\" className="text-white">
+                        <Link
+                            href="\"
+                            className="text-white font-bold cursor-pointer"
+                        >
                             HERE
                         </Link>
                         .
@@ -38,9 +41,12 @@ export default function Footer() {
                 </div>
 
                 <div className="w-full mx-auto max-w-screen-xl items-center">
-                    <p className="text-center text-gray-200">
+                    <p className="text-center text-gray-200 text-sm">
                         For Order Support, please contact Digistore24{" "}
-                        <Link href="\" className="text-white">
+                        <Link
+                            href="\"
+                            className="text-white font-bold cursor-pointer"
+                        >
                             HERE
                         </Link>
                         .
