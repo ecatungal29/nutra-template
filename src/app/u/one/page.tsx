@@ -31,15 +31,17 @@ export default function UpsellTwo() {
                 Do Not Hit The &quot;Back&quot; Button As It Can Cause Errors
                 With Your Order.
             </p>
-            <div className="relative md:w-full pt-[56.25%] rounded-[40px]  overflow-hidden mx-3">
-                <ReactPlayer
-                    url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                    className="absolute top-0 left-0 w-full h-full"
-                    controls
-                    width="100%"
-                    height="100%"
-                    // onProgress={handleTimeUpdate}
-                />
+
+            <div className="flex justify-center items-center md:mx-28 mx-4">
+                <div className="aspect-video max-w-screen-xl w-full rounded-[40px] overflow-hidden">
+                    <ReactPlayer
+                        url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        className="react-player"
+                        controls
+                        width="100%"
+                        height="100%"
+                    />
+                </div>
             </div>
 
             <ArrowSectionTwo />

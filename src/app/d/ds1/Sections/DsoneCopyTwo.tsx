@@ -3,14 +3,14 @@ import React from "react";
 export default function DsoneCopyTwo() {
     return (
         <div className=" mx-3">
-            <div className=" md:w-6/12 mx-auto w-full  ">
-                <h1 className=" text-2xl text-stone-900 md:text-5xl font-bold text-center mb-8 mt-20">
+            <div className=" md:w-8/12 mx-auto w-full  ">
+                <h1 className=" text-xl md:text-2xl text-stone-900  font-bold text-center mb-8 mt-10">
                     And just remember that the only thing worse than not having
                     something you truly desire, is to have it and then lose it
                     by not taking action at the right time.
                 </h1>
 
-                <p className="md:text-2xl text-base text-center mx-2 mb-5">
+                <p className="md:text-lg text-base text-center mx-2 mb-5">
                     And I do not want to see that happen to you! This is your
                     final opportunity to
                     <span className="font-bold">

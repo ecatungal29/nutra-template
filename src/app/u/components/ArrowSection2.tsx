@@ -10,7 +10,7 @@ export default function ArrowSectionTwo() {
                     className="w-11/12 md:w-9/12 xl:w-8/12 mx-auto p-10 md:p-5 items-center border rounded-3xl bg-gradient-to-t from-[#544080] to-[#26144d]"
                 >
                     <div className="md:mx-2 md:w-12/12 mx-auto ">
-                        <p className=" mb-2 font-semibold text-white text-center text-2xl md:text-[28px] ">
+                        <p className=" mb-2 font-semibold text-white text-center text-2xl md:text-[28px] leading-normal">
                             Upgrade Your Order For Insane Savings and Get More
                             ProstaFlow For Just $33 Per Bottle!
                         </p>

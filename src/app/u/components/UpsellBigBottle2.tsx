@@ -66,8 +66,10 @@ export default function UpsellBigBottleTwo() {
                         </h5>
 
                         <p className="text-center mt-5 mb-2 font-normal text-xl lg:text-left">
-                            Add an Additional 6 BOTTLES at The Outrageous
-                            Discount of Just <del>$69</del> $33 per bottle!
+                            Add an Additional{" "}
+                            <span className=" font-bold">6 BOTTLES</span> at The
+                            Outrageous Discount of Just <del>$69</del>{" "}
+                            <span className=" font-bold">$33 per bottle!</span>
                         </p>
                         <p className="text-center mb-3 mt-3 font-bold text-xl lg:text-left">
                             Includes Free Bonuses
