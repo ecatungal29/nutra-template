@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
+// eslint-disable-next-line @next/next/no-document-import-in-page
 import Head from "next/head";
+
+// import { Head } from "next/document";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

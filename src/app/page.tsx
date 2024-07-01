@@ -1,4 +1,6 @@
 "use client";
+
+import "./globals.css";
 import Hero from "./components/Hero";
 import VSL1 from "./vsl/vsl_1/page";
 import VSL2 from "./vsl/vsl_2/page";
